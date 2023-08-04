@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tüm Ürünler</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="./image/jewelery logo.jpg" /></a>
+        </div>
+
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="products.html">Ürünler</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">İletişim</a></li>
+            <li><a href="#">Outlet</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="image/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="image/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Tüm Ürünler</h2>
+        <select>
+          <option>Önerilan Sıralama</option>
+          <option>En Düşük Fiyat</option>
+          <option>En Yüksek Fiyat</option>
+          <option>En Çok Satanlar</option>
+          <option>En Çok Yorum Alanlar</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <a href="product-details.html">
+            <img src="image/ozel_urunler_1.webp" />
+            <h4>Rose-Gold Kolye</h4>
+          </a>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/ozel-urunler-2.webp" />
+          <h4>Zirkon Yüzük</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/ozel-urunler-3.webp" />
+          <h4>Özel Küpe</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/ozel-urunler-4.webp" />
+          <h4>Zirkon Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="image/son-cıkan-1.webp" />
+          <h4>Rose-Gold Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-2.webp" />
+          <h4>Rose-Gold Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-3.webp" />
+          <h4>Rose-Gold Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-4.webp" />
+          <h4>Rose-Gold Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="image/son-cıkan-5.webp" />
+          <h4>Rose-Gold Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-6.webp" />
+          <h4>Rose-Gold Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-7.webp" />
+          <h4>Rose-Gold Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-8.webp" />
+          <h4>Rose-Gold Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+      </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span> &#8594; </span>
+      </div>
+    </div>
+
+    <!-- -------------------footer------------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Mobil Uygulamamız</h3>
+            <p>Android ve ios telefonlar için uygulamamızı indirin.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="image/jewelery logo.jpg" />
+            <p>Biz daha iyisini yapana kadar en iyisi!</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Faydalı Bağlantılar</h3>
+            <ul>
+              <a href="#"><li>Kuponlar</li></a>
+              <a href="#"><li>Blog</li></a>
+              <a href="#"><li>İade Politikası</li></a>
+              <a href="#"><li>İş Ortaklığı</li></a>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Bizi Takip Edin</h3>
+            <ul>
+              <a href="#"><li>Facebook</li></a>
+              <a href="#"><li>Twitter</li></a>
+              <a href="#"><li>Instagram</li></a>
+              <a href="#"><li>Youtube</li></a>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2023-Tüm Hakları Saklıdır.-</p>
+      </div>
+    </div>
+    <!-- ---------Js for tooglemenu------ -->
+    <script>
+      let MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

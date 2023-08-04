@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Takı Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="./image/jewelery logo.jpg" /></a>
+          </div>
+
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Anasayfa</a></li>
+              <li><a href="products.html">Ürünler</a></li>
+              <li><a href="#">Hakkımızda</a></li>
+              <li><a href="#">İletişim</a></li>
+              <li><a href="#">Outlet</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"
+            ><img src="image/cart.png" width="30px" height="30px"
+          /></a>
+          <img src="image/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Parıltı ve İhtişamın Buluşma Noktası<br />
+              Takı Dünyası.
+            </h1>
+            <p>
+              Seçili Ürünlerde %50'ye varan indirimi yakalamak için hemen şimdi
+              satın alın!
+            </p>
+            <a href="products.html" class="btn">Şimdi Satın Al &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="image/background2.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------featured categories----------- -->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="image/category1.webp" />
+          </div>
+          <div class="col-3">
+            <img src="image/category5.webp" />
+          </div>
+          <div class="col-3">
+            <img src="image/category4.webp" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------featured Products----------- -->
+    <div class="small-container">
+      <h2 class="title">ÖZEL ÜRÜNLER</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="product-details.html">
+            <img src="image/ozel_urunler_1.webp" />
+          </a>
+          <a class="add-cart cart1" href="#">Add Cart</a>
+          <h4>Rose-Gold Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/ozel-urunler-2.webp" />
+          <a class="add-cart cart2" href="#">Add Cart</a>
+          <h4>Zirkon Yüzük</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺2000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/ozel-urunler-3.webp" />
+          <a class="add-cart cart3" href="#">Add Cart</a>
+          <h4>Kokteyl Küpe</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>₺3500.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/ozel-urunler-4.webp" />
+          <a class="add-cart cart4" href="#">Add Cart</a>
+          <h4>Altın Bileklik</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺2800.00</p>
+        </div>
+      </div>
+      <h2 class="title">SON ÇIKAN ÜRÜNLER</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="image/son-cıkan-1.webp" />
+          <a class="add-cart cart5" href="#">Add Cart</a>
+          <h4>Düğme Küpeler</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺2000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-2.webp" />
+          <a class="add-cart cart6" href="#">Add Cart</a>
+          <h4>Gold Bilezik</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺2300.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-3.webp" />
+          <a class="add-cart cart7" href="#">Add Cart</a>
+          <h4>Zirkon Küpe</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>₺3200.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-4.webp" />
+          <a class="add-cart cart8" href="#">Add Cart</a>
+          <h4>Gold Küpe</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺5600.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="image/son-cıkan-5.webp" />
+          <a class="add-cart cart9" href="#">Add Cart</a>
+          <h4>Yıldız Küpe</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺2800.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-6.webp" />
+          <a class="add-cart cart10" href="#">Add Cart</a>
+          <h4>Parıltı Alyans</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺3000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-7.webp" />
+          <a class="add-cart cart11" href="#">Add Cart</a>
+          <h4>Ozel Kolye</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>₺2000.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/son-cıkan-8.webp" />
+          <a class="add-cart cart12" href="#">Add Cart</a>
+          <h4>Marjinal Bilezik</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>₺1500.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------offer----------------- -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="image/excs.webp" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>EL İŞLEMESİ ÖZEL ÜRÜN</p>
+            <h1>GÖKYÜZÜ PARILTISI</h1>
+            <small
+              >Son derece özenle hazırlanmış birebir el yapımı özel işçilikle
+              gökyüzü parıltısı
+            </small>
+            <a href="#" class="btn">Hemen Satın Al &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------testimonial------------- -->
+    <div class="testimonial">
+      <div class="smal-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto dignissimos corporis sequi culpa nostrum debitis
+              delectus commodi eligendi consectetur repudiandae doloribus
+              facilis sed, doloremque reiciendis!
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="image/hadise.jpeg" />
+            <h3>Ayşe Hilal</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto dignissimos corporis sequi culpa nostrum debitis
+              delectus commodi eligendi consectetur repudiandae doloribus
+              facilis sed, doloremque reiciendis!
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="image/icardi.jpeg" />
+            <h3>Mauro İcardi</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto dignissimos corporis sequi culpa nostrum debitis
+              delectus commodi eligendi consectetur repudiandae doloribus
+              facilis sed, doloremque reiciendis!
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="image/simge.jpeg" />
+            <h3>Zeynep Alya</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------footer------------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Mobil Uygulamamız</h3>
+            <p>Android ve ios telefonlar için uygulamamızı indirin.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="image/jewelery logo.jpg" />
+            <p>Biz daha iyisini yapana kadar en iyisi!</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Faydalı Bağlantılar</h3>
+            <ul>
+              <a href="#"><li>Kuponlar</li></a>
+              <a href="#"><li>Blog</li></a>
+              <a href="#"><li>İade Politikası</li></a>
+              <a href="#"><li>İş Ortaklığı</li></a>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Bizi Takip Edin</h3>
+            <ul>
+              <a href="#"><li>Facebook</li></a>
+              <a href="#"><li>Twitter</li></a>
+              <a href="#"><li>Instagram</li></a>
+              <a href="#"><li>Youtube</li></a>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2023-Tüm Hakları Saklıdır.-</p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

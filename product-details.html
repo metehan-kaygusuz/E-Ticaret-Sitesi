@@ -29,9 +29,10 @@
             <li><a href="#">Outlet</a></li>
           </ul>
         </nav>
-        <a href="cart.html"
-          ><img src="image/cart.png" width="30px" height="30px"
-        /></a>
+        <a href="cart.html">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+
         <img src="image/menu.png" class="menu-icon" onclick="menutoggle()" />
       </div>
     </div>
@@ -165,8 +166,8 @@
             <h3>Mobil Uygulamamız</h3>
             <p>Android ve ios telefonlar için uygulamamızı indirin.</p>
             <div class="app-logo">
-              <img src="images/play-store.png" />
-              <img src="images/app-store.png" alt="" />
+              <img src="image/play-store.png" />
+              <img src="image/app-store.png" alt="" />
             </div>
           </div>
           <div class="footer-col-2">
@@ -197,6 +198,24 @@
       </div>
     </div>
 
-    <script src="main.js"></script>
+    <script>
+      let ProductImg = document.getElementById("ProductImg");
+      let SmallImg = document.getElementsByClassName("small-img");
+
+      SmallImg[0].onclick = function () {
+        ProductImg.src = SmallImg[0].src;
+      };
+      SmallImg[1].onclick = function () {
+        ProductImg.src = SmallImg[1].src;
+      };
+      SmallImg[2].onclick = function () {
+        ProductImg.src = SmallImg[2].src;
+      };
+      SmallImg[3].onclick = function () {
+        ProductImg.src = SmallImg[3].src;
+      };
+    </script>
+
+    <!-- <script src="main.js"></script> -->
   </body>
 </html>

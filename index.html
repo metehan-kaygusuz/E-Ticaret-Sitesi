@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Takı Store</title>
     <link rel="stylesheet" href="style.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
       rel="stylesheet"
@@ -29,17 +30,20 @@
               <li><a href="#">Hakkımızda</a></li>
               <li><a href="#">İletişim</a></li>
               <li><a href="#">Outlet</a></li>
-         
-          <a href="cart.html" >
-            <i class="fas fa-shopping-cart"></i>
-          </a>
-            
-            
-        
-          
-          
-        </nav>
-        </ul>
+              <li>
+                <button
+                  type="button"
+                  class="btn-cart"
+                  style="background: #bda2a2"
+                >
+                  <a href="cart.html">
+                    <i class="fas fa-shopping-cart" style="font-size: 24px"></i>
+                  </a>
+                  <span id="item-count"> 0 </span>
+                </button>
+              </li>
+            </ul>
+          </nav>
 
           <img src="image/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
@@ -85,7 +89,9 @@
           <a href="product-details.html">
             <img src="image/ozel_urunler_1.webp" />
           </a>
-          <a class="add-cart cart1" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart1" href="#">Sepete Ekle</a>
+          </button>
           <h4>Rose-Gold Kolye</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -98,7 +104,9 @@
         </div>
         <div class="col-4">
           <img src="image/ozel-urunler-2.webp" />
-          <a class="add-cart cart2" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart2" href="#">Sepete Ekle</a>
+          </button>
           <h4>Zirkon Yüzük</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -111,7 +119,9 @@
         </div>
         <div class="col-4">
           <img src="image/ozel-urunler-3.webp" />
-          <a class="add-cart cart3" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart3" href="#">Sepete Ekle</a>
+          </button>
           <h4>Kokteyl Küpe</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -124,7 +134,9 @@
         </div>
         <div class="col-4">
           <img src="image/ozel-urunler-4.webp" />
-          <a class="add-cart cart4" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart4" href="#">Sepete Ekle</a>
+          </button>
           <h4>Altın Bileklik</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -140,7 +152,9 @@
       <div class="row">
         <div class="col-4">
           <img src="image/son-cıkan-1.webp" />
-          <a class="add-cart cart5" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart5" href="#">Sepete Ekle</a>
+          </button>
           <h4>Düğme Küpeler</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -153,7 +167,9 @@
         </div>
         <div class="col-4">
           <img src="image/son-cıkan-2.webp" />
-          <a class="add-cart cart6" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart6" href="#">Sepete Ekle</a>
+          </button>
           <h4>Gold Bilezik</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -166,7 +182,9 @@
         </div>
         <div class="col-4">
           <img src="image/son-cıkan-3.webp" />
-          <a class="add-cart cart7" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart7" href="#">Sepete Ekle</a>
+          </button>
           <h4>Zirkon Küpe</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -179,7 +197,9 @@
         </div>
         <div class="col-4">
           <img src="image/son-cıkan-4.webp" />
-          <a class="add-cart cart8" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart8" href="#">Sepete Ekle</a>
+          </button>
           <h4>Gold Küpe</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -194,7 +214,9 @@
       <div class="row">
         <div class="col-4">
           <img src="image/son-cıkan-5.webp" />
-          <a class="add-cart cart9" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart9" href="#">Sepete Ekle</a>
+          </button>
           <h4>Yıldız Küpe</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -207,7 +229,9 @@
         </div>
         <div class="col-4">
           <img src="image/son-cıkan-6.webp" />
-          <a class="add-cart cart10" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart10" href="#">Sepete Ekle</a>
+          </button>
           <h4>Parıltı Alyans</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -220,7 +244,10 @@
         </div>
         <div class="col-4">
           <img src="image/son-cıkan-7.webp" />
-          <a class="add-cart cart11" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart11" href="#">Sepete Ekle</a>
+          </button>
+
           <h4>Ozel Kolye</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -233,7 +260,9 @@
         </div>
         <div class="col-4">
           <img src="image/son-cıkan-8.webp" />
-          <a class="add-cart cart12" href="#">Add Cart</a>
+          <button class="add-cart">
+            <a class="add-cart cart12" href="#">Sepete Ekle</a>
+          </button>
           <h4>Marjinal Bilezik</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -368,7 +397,6 @@
       </div>
     </div>
     <script>
-
       let MenuItems = document.getElementById("MenuItems");
       MenuItems.style.maxHeight = "0px";
 
@@ -379,7 +407,6 @@
           MenuItems.style.maxHeight = "0px";
         }
       }
-      
     </script>
 
     <!-- <script src="main.js"></script> -->
